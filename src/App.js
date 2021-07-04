@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Contacts from './Frcomponents/Afooter';
-import './Frcomponents/Afooter.css'
+
+import Footer from './components/Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-     <Contacts />
-      </header>
+    <div>
+
+     <Footer />
     </div>
   );
 }
