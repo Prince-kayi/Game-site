@@ -20,3 +20,30 @@ h4 {
   padding-top: 15px;
   text-align: center;
 }
+.red_col{
+  margin-top: 20px;
+  display: flex;
+}
+.red_col{
+  list-style-type: none;
+}
+.red_col a{
+  margin-top: 200px;
+  display:inline-block;
+  width: 40px;
+  height: 40px;
+  background:#e30613;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.red_col a:hover{
+background-color: cyan;
+}
+.red_col li a .fab{
+  color: #fff;
+    font-size: 20px;
+}
