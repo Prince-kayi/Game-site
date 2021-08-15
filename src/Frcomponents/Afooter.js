@@ -1,6 +1,6 @@
 import React from "react";
 
-function Contacts(){
+function Contactis(){
 return(
     <div className="body">
       <footer>
@@ -83,4 +83,4 @@ front one steerable, mounted in a frame ... </p>
 
 
 }
-export default Contacts
+export default Contactis

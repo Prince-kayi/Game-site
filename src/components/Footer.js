@@ -9,7 +9,7 @@ function Footer(){
                <Container>
                    <Row>
                    <Col className="red_col">
-               <img src="Users/PRINCE/Desktop/sandbox/public/game_logo.jpg"/>
+               
        {/* todo add the logo, copyright, website name, and 4 social icons with fontawesome */}
 
                       
