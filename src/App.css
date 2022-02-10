@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  background-image: url();
+  height: 100vh;
+  background-size: cover;
+   background-repeat: no-repeat;
+   overflow: hidden;
+   background-position: center;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "lato",sans-serif;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.products{
+  background-image: url("/src/Sekiro-1.jpg");
+}
+.home{
+  background-image:url("/src/Kratos_Mugshot.jpg");
+}
+.console{
+  background-image: url("/src/prototype-2.jpg");
+  background-size: cover;
+   background-repeat: no-repeat;
+   overflow: hidden;
+   background-position: center;
+}
+.sign{
+  background-image: url("/src/ally.jpg");
+}
+.reports{
+  background-image: url("/src/myth.jpg");
+  background-size: cover;
+   background-repeat: no-repeat;
+   overflow: hidden;
+   background-position: center;
+  
+}
+.home,.products,.reports,.console,.sign{
+  color:white;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-items: center;
+  font-size: 500px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ji{
+  font-size: 8rem;
+  text-transform: uppercase;
 }
