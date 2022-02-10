@@ -1,0 +1,111 @@
+.App{
+background-image: url();
+}
+
+
+.foot-wrap{
+    height:25vh;
+    width: 100%;
+    background-color:black;
+    position: fixed;
+    bottom:0px;
+    margin-left: 250px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+
+  
+    
+}
+
+.yt{
+    display: flex;
+    align-items: center;
+    margin-left: 490px;
+    
+}
+.rio{
+ list-style-type: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.feet{
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.feit{
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.feet:hover{
+    background-color: red;
+}
+.feit:hover{
+    background-color: red;
+}
+li{
+    margin:15px;
+   
+}
+.op{
+    margin:10px;
+   padding: 2px 8px;
+}
+.op:hover{
+    background-color: blue;
+}
+card{
+    width:300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+     display: flex;
+      flex-direction: column;
+  justify-content: space-between;
+    animation: ease-in;
+    cursor: pointer;
+    transition: 200ms ease-in;
+    background-image:url('/src/bitch.jpg');
+}
+card:hover{
+transform: scale(1.02);
+box-shadow: 0px 0px 15px 0px;
+}
+card_body img{
+    overflow: hidden;
+    height:200px;
+    background-image: url(/src/bitch.jpg);
+
+}
+card_body h2{
+    font-size: 50px;
+    color:blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+card_body h5{
+    font-size: 20px;
+    font-style: italic;
+}
+card button{
+  padding: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  border:2px solid black;
+  background: transparent;
+  margin: 1rem;
+  transition:background 200ms ease-in, color 200ms ease-in;
+}
+
+card button:hover{
+   background: red;
+   color: white;
+   
+}
+.card{
+    background-color: tomato;
+}

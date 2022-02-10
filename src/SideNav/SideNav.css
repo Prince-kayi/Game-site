@@ -1,0 +1,63 @@
+.side-wrap{
+    
+    height: 100vh;
+    width: 15%;
+    background-color:#2F4050;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 0;
+   
+}
+.side{
+    
+    display: flex;
+    justify-self: center;
+    align-items: center;
+     position: fixed;
+    bottom: 0;
+    
+}
+.thing{
+  margin-top: 50px;
+    list-style-type: none;
+    justify-self: center;
+    align-items: center;
+    
+    
+     
+}
+.less{
+   margin:45px;
+   width: 100%;
+   list-style-type: none;
+   color: oldlace;
+   
+   
+ 
+}
+ .fa-home{
+     color: white;
+     font-size: 2rem;
+     display:grid;
+     list-style-type: none;
+ }
+
+ .help:hover{
+     color: orangered;
+ }
+ .bts{
+     padding: 5px 15px;
+     border-radius: 20px;
+     background-color: brown;
+     align-items: center;
+
+ }
+ .bts:hover{
+     background-color: red;
+ }
+ p{
+     color: white;
+     text-transform: uppercase;
+
+ }
