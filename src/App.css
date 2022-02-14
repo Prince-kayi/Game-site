@@ -18,7 +18,11 @@
   background-image: url("/src/Sekiro-1.jpg");
 }
 .home{
-  background-image:url("/src/Kratos_Mugshot.jpg");
+  background-image:url("/src/wukong.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position: center;
 }
 .console{
   background-image: url("/src/prototype-2.jpg");
@@ -29,6 +33,22 @@
 }
 .sign{
   background-image: url("/src/ally.jpg");
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.register{
+  background-image: url("/src/Kratos_Mugshot.jpg");
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
 }
 .reports{
   background-image: url("/src/myth.jpg");
@@ -38,7 +58,7 @@
    background-position: center;
   
 }
-.home,.products,.reports,.console,.sign{
+.home,.products,.reports,.console,sign{
   color:white;
   height: 100vh;
   display: flex;
@@ -50,4 +70,68 @@
 .ji{
   font-size: 8rem;
   text-transform: uppercase;
+}
+.press{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form{
+  display: flex;
+  width: 200px;
+	height: 40px;
+	font-size: 18px;
+	display: block;
+	position: relative;
+	margin: 20px auto;
+}
+.log{
+  width: 200px;
+	height: 42px;
+	border:  1px solid blue;
+	background-color: blue;
+	font-size: 19px;
+	margin: 20px 0px 0px 0px   
+
+}
+.log:hover{
+  background-color: red;
+}
+.option{
+  margin: 20px;
+  text-transform: uppercase;
+}
+.option a{
+  color:black;
+}
+.option a:hover{
+  color: red;
+}
+
+.formi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  width: 200px;
+	height: 40px;
+}
+
+.sub{
+  width: 200px;
+	height: 42px;
+	border:  1px solid green;
+	background-color:chartreuse;
+	font-size: 19px;
+	margin: 20px 0px 0px 0px; 
+}
+
+.sub:hover{
+  background-color: brown;
+}
+.lip{
+  text-transform: uppercase;
+  color: blanchedalmond;
+  font-size: 40px;
 }

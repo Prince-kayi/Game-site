@@ -14,6 +14,7 @@ import Reports from './Pages/Reports';
 import Console from './Pages/Console';
 import Sign from './Pages/Sign';
 import './App.css'
+import Join from './Pages/Join';
 
 
  function App(){
@@ -32,8 +33,8 @@ return(
  <Route path="/products"  component={Products}/>
  <Route path="/reports" component={Reports}/>
  <Route path="/console" component={Console}/>
-
  <Route path="/sign" component={Sign}/>
+ <Route path="/register" component={Join}/>
 
 
 
