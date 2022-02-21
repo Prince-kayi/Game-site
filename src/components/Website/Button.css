@@ -1,0 +1,15 @@
+.ton{
+    border: none;
+    background: transparent;
+    padding: 6px 16px;
+    font-size: 1.2rem;
+    color: aliceblue;
+    border-radius: 7px;
+    background: rgb(0, 212,212);
+    transition: 0.4s ease-out;
+    cursor: pointer;
+}
+.ton:hover{
+    color:rgb(0, 212,212) ;
+    background:white ;
+}

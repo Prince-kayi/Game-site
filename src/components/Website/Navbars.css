@@ -1,0 +1,48 @@
+.navig{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo{
+    color: beige;
+    font-size: 35px;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+   width: 11rem;
+}
+.nav-logo:hover{
+    color: aliceblue;
+    text-decoration: none;
+}
+.nav-thing{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    width: 70vw;
+    justify-content: flex-end;
+    margin: 2rem;
+    
+}
+.nav-things{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+.nav-things a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 6px 16px;
+    border-radius: 7px;
+
+}
+.nav-things a:hover{
+    background-color: aqua;
+}
